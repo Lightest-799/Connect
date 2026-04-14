@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(/images/love-back.jpeg);
+  background-size: cover;
+  background-position: center;
+  font-family: "playfair Display" sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 7rem;
+}
+
+.one {
+  /* border: 2px solid red; */
+  background-image: url("/images/Roma-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* filter: blur(1px); */
+  height: 100vh;
+  width: 700px;
+  position: relative;
+  right: 110px;
+}
+
+.two {
+  border: 2px solid transparent;
+  border-radius: 16px;
+  position: relative;
+  right: 13rem;
+  padding: 1.2rem;
+  outline: none;
+  animation: glow 3s infinite linear;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 0.5rem red;
+  }
+  25% {
+    box-shadow: 0 0 1rem blue;
+  }
+  50% {
+    box-shadow: 0 0 1.5rem purple;
+  }
+  75% {
+    box-shadow: 0 0 1rem green;
+  }
+  100% {
+    box-shadow: 0 0 0.5rem red;
+  }
+}
+
+/* .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-size: 1.7rem;
+}
+
+a {
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+
+input {
+  font-size: 3rem;
+  height: 5rem;
+  padding: 0 1.2rem;
+  border: 1px gray solid;
+  border-radius: 20px;
+}
+
+input:focus {
+  background-color: aquamarine;
+  transition: 2s;
+}
+
+input:not([type="checkbox"]) {
+  margin-top: 0.5rem;
+}
+
+::placeholder {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 3.5rem;
+  font: 800px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+button {
+  padding: 1.5rem 15rem;
+  border: 1px solid gray;
+  border-radius: 40px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  padding: 1.7rem 15.5rem;
+  transition: 0.1s;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -2rem;
+}
+
+.remeber {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.remeber label {
+  cursor: pointer;
+}
+
+img {
+  width: 15rem;
+  position: absolute;
+}
+
+
+
+
+
+
+
+@media (max-width: 62.5%) {
+  .one {
+    width: 500px;
+    position: relative;
+    right: 110px;
+  }
+
+  .two {
+    border-radius: 16px;
+    position: relative;
+    right: 13rem;
+    padding: 0.5rem;
+  }
+}
