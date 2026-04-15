@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fac5ce;
+  font-family: "playfair Display" sans-serif;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left div > img {
+    width: 50rem;
+    margin-top: -15rem;
+}
+
+.left {
+  border-right: 5px red solid;
+  font-size: 7rem;
+  width: 57%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  background-color: #a13043;
+  color: #fff;
+}
+
+.right {
+  font-size: 6rem;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color:#5d0211;
+}
