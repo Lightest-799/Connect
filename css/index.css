@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-image: url("../images/love-back.jpeg");
+  background-image: url(../images/love-back.jpeg);
   background-size: cover;
   background-position: center;
   font-family: "playfair Display", serif;
@@ -29,7 +29,7 @@ body {
 .one {
   flex: 1;
   height: 70vh;
-  background-image: url("../images/Roma-2.png");
+  background-image: url(../images/Roma-2.png);
   background-size: cover;
   background-position: center;
   border-radius: 20%;
